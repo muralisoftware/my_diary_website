@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Diary — Private Offline Journal & Mindful AI</title>
+  <meta name="description" content="Your thoughts. Your memories. Your private space. 100% offline personal diary with PIN lock, mood tracking, and mindful on-device AI.">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-glow-top"></div>
+  <div class="bg-glow-bottom"></div>
+
+  <div class="container">
+    <!-- Navbar -->
+    <header class="navbar">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/icon.png" alt="My Diary App Icon" class="nav-logo">
+        <span>My Diary</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#ai">Mindful AI</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="#download" class="btn-nav">Get App</a></li>
+      </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span>✨</span>
+          <span>100% Offline • Zero Tracking • Private Journal</span>
+        </div>
+        <h1>Your Thoughts.<br>Your Memories.<br><span>Your Private Space.</span></h1>
+        <p class="hero-subtitle">
+          A serene, distraction-free digital journal built for Android. Protected by PIN lock and salted SHA-256 encryption. Completely private, offline, and ad-free.
+        </p>
+
+        <div class="hero-cta" id="download">
+          <a href="https://github.com/muralisoftware/my_diary_website/releases" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span>Download APK (Releases)</span>
+          </a>
+          <a href="#features" class="btn-secondary">
+            <span>Explore Features</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+        <div class="trust-badges">
+          <div class="trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span><strong>Zero Cloud:</strong> Stays on device</span>
+          </div>
+          <div class="trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e5b25d" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <span><strong>PIN + Biometric</strong> Lock</span>
+          </div>
+          <div class="trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            <span><strong>100% Free:</strong> No ads</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-graphic-wrap">
+        <img src="assets/feature-graphic.png" alt="My Diary Google Play Feature Graphic" class="hero-graphic">
+      </div>
+    </section>
+
+    <!-- Core Features Grid -->
+    <section class="section" id="features">
+      <div class="section-head">
+        <div class="section-tag">Peaceful by Design</div>
+        <h2>Everything You Need for Mindful Writing</h2>
+        <p>No subscriptions, no login screens, and no social feeds. Just an elegant diary created to help you reflect with clarity.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>100% Offline & Private</h3>
+          <p>Works completely without internet, remote servers, or logins. All diary records, photos, and settings remain solely inside your physical phone's SQLite database.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>PIN & Biometric Lock</h3>
+          <p>Protect your private reflections with a 4-digit PIN secured via salted SHA-256 cryptographic hashing, fingerprint unlock, and deliberate recovery question.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">✨</div>
+          <h3>Mindful Prompts & Reflection</h3>
+          <p>Thoughtful writing prompts to help you overcome writer's block, practice daily gratitude, and discover meaningful lessons from your day.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Mood & Streaks Tracker</h3>
+          <p>Record your feelings across 6 emotional tones. Visualize monthly mood breakdowns, celebrate continuous daily writing streaks, and understand emotional patterns.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📅</div>
+          <h3>Interactive Calendar</h3>
+          <p>Browse past journal entries by date with color-coded mood dots. Rediscover nostalgic "On This Day" memories from previous months and years.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <h3>4 Serene Aesthetics</h3>
+          <p>Switch seamlessly between Pure White, Warm Journal, Calm Lavender, and Midnight Diary. Designed with paper-like textures and distraction-free typography.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Security Deep-Dive Banner -->
+    <section class="section" id="security" style="padding-top: 20px;">
+      <div class="security-banner">
+        <div>
+          <div class="section-tag" style="color: var(--accent-green);">Data Sovereignty</div>
+          <h2 style="font-size: 2.1rem; margin-bottom: 14px;">Your Secrets Belong Solely to You</h2>
+          <p style="color: var(--text-secondary);">Most modern apps secretly harvest your journal entries for advertising models. My Diary is built with an unbreakable local-first principle:</p>
+          
+          <ul class="security-list">
+            <li>
+              <span class="security-badge-icon">✓</span>
+              <span><strong>Salted Cryptographic Hashing:</strong> Passcodes are secured with salted SHA-256. Plaintext PINs are never stored.</span>
+            </li>
+            <li>
+              <span class="security-badge-icon">✓</span>
+              <span><strong>Full JSON & Markdown Backups:</strong> Export your entire journal to a portable, machine-readable JSON backup or printable Markdown book with one tap.</span>
+            </li>
+            <li>
+              <span class="security-badge-icon">✓</span>
+              <span><strong>Instant Deletion:</strong> Permanent deletion erases rows immediately from the database without lingering cloud backups.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="quote-box">
+          <p>“Writing in a diary is the ultimate act of vulnerability. If an app requires a cloud login to read your thoughts, it isn't truly private. My Diary guarantees your privacy stays with you.”</p>
+          <div class="quote-author">— The My Diary Design Philosophy</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mindful AI Section -->
+    <section class="section" id="ai" style="padding-top: 0;">
+      <div class="section-head">
+        <div class="section-tag">On-Device Intelligence</div>
+        <h2>Empathetic Companion, Zero Network Required</h2>
+        <p>Experience the benefits of emotional reflection without compromising your personal privacy.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="feature-card">
+          <div class="feature-icon" style="color: #8b5cf6;">💡</div>
+          <h3>Writing Prompt Helpers</h3>
+          <p>Feeling stuck? Tap <strong>Overcome Block</strong> to receive gentle questions tailored to your mood, <strong>Gratitude Reframe</strong> to see the silver lining in tough days, or <strong>1-Sentence Lesson</strong> to distill wisdom from experiences.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="color: #e5b25d;">🌱</div>
+          <h3>Life Chapter Digests</h3>
+          <p>View periodic <strong>Mindful Digests</strong> synthesizing your journal entries into a life chapter title, highlights of gratitude, and growth observations—all synthesized completely offline on your device.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" id="faq">
+      <div class="section-head">
+        <div class="section-tag">Common Inquiries</div>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is My Diary really 100% offline?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Yes. The app does not require an internet connection, has no login server, and does not send any of your text, photos, or audio recordings to any remote server. Everything stays on your phone.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Can I backup my data if I change phones?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Yes! In the Settings screen, tap <strong>Export Full Journal (JSON)</strong> to save a complete file backup that you can restore onto any new phone in seconds.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What happens if I forget my PIN?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>You can set up a custom Security Question (e.g. childhood best friend or favorite book) during PIN setup. If you forget your passcode, answering this question lets you safely reset it.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Does My Diary require an internet connection?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>No. My Diary operates 100% offline with zero network calls. All database records, encryption keys, and journal reflections stay strictly on your physical device.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="nav-brand">
+          <img src="assets/icon.png" alt="My Diary Logo" class="nav-logo" style="width: 32px; height: 32px;">
+          <span>My Diary</span>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="support.html">Support</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span id="current-year">2026</span> My Diary. 100% Offline & Private by Design. Built with Expo & React Native.
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

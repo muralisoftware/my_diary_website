@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — My Diary</title>
+  <meta name="description" content="Privacy Policy for My Diary: Private, 100% Offline Journal mobile application.">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-glow-top"></div>
+
+  <div class="container">
+    <!-- Navbar -->
+    <header class="navbar">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/icon.png" alt="My Diary Logo" class="nav-logo">
+        <span>My Diary</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#security">Security</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="privacy.html" class="active">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </header>
+
+    <!-- Privacy Policy Document -->
+    <main class="legal-container">
+      <div class="legal-header">
+        <h1>Privacy Policy</h1>
+        <div class="legal-meta">
+          <span>Last Updated: November 2026</span> • 
+          <span>App: My Diary (<code>com.muralidev.personaldiaryapp</code>)</span>
+        </div>
+      </div>
+
+      <div class="legal-content">
+        <div class="callout-box">
+          <p><strong>The Core Privacy Guarantee:</strong> My Diary is built with an <strong>offline-first, zero-knowledge architecture</strong>. We do not operate user accounts, remote databases, telemetry trackers, or ad networks. Your thoughts, memories, photos, and moods stay strictly on your physical device.</p>
+        </div>
+
+        <h2>1. Overview and Scope</h2>
+        <p>This Privacy Policy explains how <strong>My Diary</strong> ("we", "our", or "the application") handles information when you use our mobile application available on Android and Google Play Store. We are fundamentally committed to ensuring that your private journal remains completely personal and confidential.</p>
+
+        <h2>2. Information We Handle</h2>
+        <p>Because My Diary operates 100% locally on your phone, the application processes the following data exclusively within your device's isolated application sandbox:</p>
+        <ul>
+          <li><strong>Journal Entries:</strong> Titles, reflection notes, thoughts, and word counts.</li>
+          <li><strong>Moods & Tags:</strong> Emotional ratings (e.g., Happy, Calm, Excited, Neutral, Sad, Stressed) and custom user tags (e.g., #gratitude, #work, #mindfulness).</li>
+          <li><strong>Timestamps & Dates:</strong> Entry creation and modification dates used for the interactive calendar and writing streak counters.</li>
+          <li><strong>Security Credentials:</strong> Your 4-digit PIN hash (protected using salted SHA-256 one-way cryptographic hashing) and optional recovery question/answer. Plaintext PINs are never stored.</li>
+          <li><strong>Theme & App Preferences:</strong> User interface settings (Pure White, Warm Journal, Calm Lavender, Midnight Diary) and notification reminder schedules.</li>
+        </ul>
+
+        <h2>3. Zero Remote Server Storage & Zero Telemetry</h2>
+        <p>We do <strong>not</strong> collect, transmit, rent, or sell any of your personal diary data. Specifically:</p>
+        <ul>
+          <li>No accounts, emails, or logins are required to use the app.</li>
+          <li>No cloud servers, analytics SDKs (e.g., Google Analytics, Firebase Telemetry, Mixpanel), or crash reporting trackers that log user text are embedded.</li>
+          <li>All records are stored in local <strong>SQLite</strong> databases and device-native secure storage.</li>
+        </ul>
+
+        <h2>4. Device Permissions</h2>
+        <p>My Diary requests only the minimum device permissions necessary to enable specific on-device user actions:</p>
+        <ul>
+          <li><strong>Biometric Authentication (<code>USE_BIOMETRIC</code> / <code>USE_FINGERPRINT</code>):</strong> Used solely to allow you to unlock your diary with your phone's fingerprint sensor or Face Unlock. Biometric verification is processed by your phone's operating system; the app never receives or stores raw biometric data.</li>
+          <li><strong>Vibration (<code>VIBRATE</code>):</strong> Provides subtle haptic feedback when entering your PIN passcode or tapping keys.</li>
+          <li><strong>Photos / Media (Optional):</strong> If you choose to attach photos to an entry, the app accesses local storage solely to render the photo within your journal. Images never leave your device.</li>
+        </ul>
+
+        <h2>5. 100% Offline Architecture</h2>
+        <p>My Diary operates 100% offline with zero cloud server connections or tracking:</p>
+        <ul>
+          <li><strong>100% On-Device:</strong> All entries, mood records, tags, and backups stay strictly on your local device. <strong>No network connection is required or established.</strong></li>
+          <li><strong>Zero Ads & Zero Third-Party Trackers:</strong> No advertising libraries or background tracking services exist in the code.</li>
+        </ul>
+
+        <h2>6. Data Sovereignty, Backups & Deletion</h2>
+        <p>You have absolute control over your journal data at all times:</p>
+        <ul>
+          <li><strong>JSON & Markdown Exports:</strong> You can export an unencrypted JSON backup or printable Markdown text of your entire journal at any time via Settings.</li>
+          <li><strong>Permanent Deletion:</strong> Deleting an entry in the app immediately and permanently erases it from the local database. You may also use the <em>Delete All Data</em> option in Settings to permanently clear the local database.</li>
+          <li><strong>App Uninstall:</strong> Uninstalling the application from your phone completely removes the local database and all saved preferences from your device.</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>Our application is rated for general audiences (13+). Because we collect zero personal data and maintain no remote servers, we do not knowingly solicit or store information from children under any jurisdiction (including COPPA and GDPR-K).</p>
+
+        <h2>8. Changes to this Privacy Policy</h2>
+        <p>We may update this policy occasionally to reflect updates to app features or Google Play policies. Any changes will be posted to this URL with an updated "Last Updated" date.</p>
+
+        <h2>9. Contact Developer</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy or the security of My Diary, please contact:</p>
+        <p><strong>Email:</strong> <a href="mailto:muralip.software.engineer@gmail.com" style="color: var(--accent-gold); text-decoration: none;">muralip.software.engineer@gmail.com</a></p>
+        <p><strong>Developer:</strong> Murali P (Software Engineer)</p>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="nav-brand">
+          <img src="assets/icon.png" alt="My Diary Logo" class="nav-logo" style="width: 32px; height: 32px;">
+          <span>My Diary</span>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="support.html">Support</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span id="current-year">2026</span> My Diary. 100% Offline & Private by Design.
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
